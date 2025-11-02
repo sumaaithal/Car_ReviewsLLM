@@ -29,11 +29,11 @@ Classify the sentiment (positive/negative) of five car reviews from the dataset 
   - F1 Score → `f1_result`
 
 **Outputs:**
-```python
+
 predicted_labels   # Model sentiment predictions
 predictions        # Binary mapped labels
 accuracy_result    # Accuracy metric
-f1_result          # F1 metric```
+f1_result          # F1 metric
 
 ### 2️⃣ English–Spanish Translation
 
