@@ -1,0 +1,41 @@
+# Car_ReviewsLLM
+
+
+# 🚗 Car-ing Is Sharing — LLM Prototype Chatbot
+
+> A prototype chatbot leveraging pre-trained LLMs to analyze customer car reviews — including sentiment detection, English–Spanish translation, question answering, and text summarization.
+
+---
+
+## 🧠 Overview
+
+This project is a **proof-of-concept chatbot application** developed for **“Car-ing is Sharing”**, a car sales and rental company.  
+It demonstrates how **Large Language Models (LLMs)** can automate diverse natural language processing tasks on customer reviews.
+
+---
+
+## 📊 Project Tasks
+
+### 1️⃣ Sentiment Classification
+
+**Goal:**  
+Classify the sentiment (positive/negative) of five car reviews from the dataset `car_reviews.csv`.
+
+**Steps:**
+- Use a pre-trained sentiment analysis model.
+- Generate predicted labels → `predicted_labels`
+- Convert predictions to binary list `{0,1}` → `predictions`
+- Evaluate performance:
+  - Accuracy → `accuracy_result`
+  - F1 Score → `f1_result`
+
+**Outputs:**
+```python
+predicted_labels   # Model sentiment predictions
+predictions        # Binary mapped labels
+accuracy_result    # Accuracy metric
+f1_result          # F1 metric
+
+
+
+
